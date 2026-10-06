@@ -67,7 +67,7 @@ namespace vtil::math
 
     // Implement x64 mulh: Returns the high 64 bits of the product of two 64-bit signed integers.
     // 
-static int64_t mulh64(int64_t a, int64_t b) {
+    static int64_t mulh64(int64_t a, int64_t b) {
 #if defined(_WIN64)
         return __mulh(a, b);
 #else
