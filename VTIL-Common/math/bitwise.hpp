@@ -31,7 +31,6 @@
 #include <optional>
 #include <type_traits>
 #include <numeric>
-#include <bit>
 #include "../arch/arch_size.hpp"
 #include "../util/reducable.hpp"
 #include "../io/asserts.hpp"
